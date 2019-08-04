@@ -69,7 +69,7 @@ export default class ExercisesList extends Component {
       <div>
         <h3>Logged Exercises</h3>
         <table className="table">
-          <thhead className="thead-light">
+          <thead className="thead-light">
             <tr>
               <th>Username</th>
               <th>Description</th>
@@ -77,7 +77,7 @@ export default class ExercisesList extends Component {
               <th>Date</th>
               <th>Actions</th>
             </tr>
-          </thhead>
+          </thead>
           <tbody>{this.exerciseList()}</tbody>
         </table>
       </div>
